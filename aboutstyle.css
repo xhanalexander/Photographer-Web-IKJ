@@ -1,0 +1,157 @@
+body {
+     background-color: #000;
+     margin: 0;
+     padding: 0;
+}
+
+/* -------------------------- background Image --------------------------   */
+.background-image {
+     /* background-image: url("https://images.unsplash.com/photo-1543169863-46febf95f5e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80"); */
+     background-image: url("mainImage/about.png");
+     height: 100vh;
+     width: 100%;
+     position: relative;
+     background-size: cover;
+     /* background-position: 50% 50%; */
+     overflow-x: hidden;
+}
+
+/* -------------------------- Navigation Bar --------------------------   */
+.navbar {
+     position: fixed;
+     width: 100%;
+     font-family: "montseratt", sans-serif;
+     font-size: 20px;
+     padding: 12px;
+     z-index: 5;
+}
+
+.navbar .menu li {
+     color: #fff;
+     list-style: none;
+     letter-spacing: 2px;
+     display: inline-block;
+     text-transform: uppercase;
+}
+
+.navbar .menu li a {
+     font-size: 20px;
+     text-decoration: none;
+     font-weight: 200;
+     margin-left: 40px;
+     display: inline-block;
+     color: #FFFFFF;
+     padding: 15px 20px;
+     position: relative;
+}
+
+.navbar .menu li a::after {
+     content: "";
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     display: block;
+     background: none repeat scroll 0 0 transparent;
+     height: 2px;
+     width: 0;
+     background-color: #FFFFFF;
+     transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.navbar .menu li a:hover:after {
+     width: 100%;
+     left: 0;
+}
+
+.nav-width {
+     max-width: 1300px;
+     padding: 0 80px;
+     margin: auto;
+}
+
+.navbar .nav-width {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+/* -------------------------- Logo -------------------------- */
+
+.logo2 {
+     fill: rgba(255, 255, 255, 1);
+}
+
+.logo2:hover {
+     fill: rgba(255, 255, 255, 0.75);
+}
+
+/* -------------------------- Introduce -------------------------- */
+.about-box {
+     display: grid;
+     max-width: 1920px;
+     position: relative;
+}
+
+.header-about {
+     background-color: #0dcaf0;
+     margin: 3%;
+}
+
+.about-1 {
+     display: grid;
+     /* background-color: #146c43; */
+     grid-template-columns: 1fr 1fr;
+     height: 720px;
+}
+
+.about-intro {
+     height: 100%;
+}
+
+.about-intro h1 {
+     /*text-align: center;*/
+     font-family: "montseratt", sans-serif;
+     font-size: 60px;
+     color: #FFFFFF;
+     font-weight: 700;
+     /* text-shadow: 5px 3px #000; */
+}
+
+.about-intro p {
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     text-align: justify;
+     font-size: 24px;
+     color: #FFFFFF;
+}
+
+/* -------------------------- whitespace -------------------------- */
+
+.hide {
+     opacity: 0%;
+     pointer-events: none;
+}
+
+.whitespace {
+     /* margin-top: 7%;
+     margin-bottom: 7%; */
+}
+
+.whitespace-top {
+     position: relative;
+     margin-top: 5%;
+     margin-bottom: 10%;
+}
+
+/* -------------------------- footer --------------------------   */
+.footer-note {
+     /*background-color: rgba(234, 234, 234, 0.51);*/
+     color: #ffffff;
+     padding-top: 2px;
+     padding-bottom: 10px;
+     width: 100%;
+     bottom: 0;
+     position: relative;
+     text-align: center;
+     font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <title>Urban Lifestyle</title>
+     <meta charset="utf-8">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="portfoliostyleUrban.css">
+     <link href="Transition.css" rel="stylesheet">
+     <link href="mainImage/Rw-1.gif" rel="icon" type="image/gif" sizes="64x64">
+     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+
+     <!-- Navigation Bar -->
+
+     <nav class="navbar">
+          <div class="nav-width">
+               <a href="home.html">
+                    <div class="logoo" title="Home">
+                         <svg viewBox="128.734 158.828 191.406 82.906" width="150" height="82.906">
+                              <path d="M 176.748 224.796 L 164.868 224.796 L 155.648 211.476 L 155.098 211.476 L 145.468 211.476 L 145.468 224.796 L 134.408 224.796 L 134.408 176.986 L 155.098 176.986 C 159.338 176.986 163.015 177.693 166.128 179.106 C 169.248 180.513 171.651 182.516 173.338 185.116 C 175.025 187.709 175.868 190.783 175.868 194.336 C 175.868 197.889 175.015 200.949 173.308 203.516 C 171.595 206.089 169.168 208.059 166.028 209.426 L 176.748 224.796 Z M 164.668 194.336 C 164.668 191.649 163.801 189.589 162.068 188.156 C 160.335 186.723 157.808 186.006 154.488 186.006 L 145.468 186.006 L 145.468 202.666 L 154.488 202.666 C 157.808 202.666 160.335 201.939 162.068 200.486 C 163.801 199.026 164.668 196.976 164.668 194.336 ZM 195.603 215.916 L 221.623 215.916 L 221.623 224.796 L 184.603 224.796 L 184.603 176.986 L 220.733 176.986 L 220.733 185.866 L 195.603 185.866 L 195.603 196.246 L 217.793 196.246 L 217.793 204.856 L 195.603 204.856 L 195.603 215.916 ZM 266.558 185.866 L 241.488 185.866 L 241.488 198.496 L 263.618 198.496 L 263.618 207.376 L 241.488 207.376 L 241.488 224.796 L 230.428 224.796 L 230.428 176.986 L 266.558 176.986 L 266.558 185.866 ZM 307.807 224.796 L 303.577 214.556 L 281.377 214.556 L 277.137 224.796 L 265.807 224.796 L 287.107 176.986 L 298.037 176.986 L 319.417 224.796 L 307.807 224.796 Z M 284.927 206.146 L 300.087 206.146 L 292.507 187.846 L 284.927 206.146 Z"
+                              </path>
+                         </svg>
+                    </div>
+               </a>
+               <ul class="menu">
+                    <li><a href="portfolio.html" class="underline" title="Portfolio">portfolio</a></li>
+                    <li><a href="contact.html" class="underline" title="Contact">contact</a></li>
+                    <li><a href="about.html" class="underline" title="About me">about</a></li>
+               </ul>
+          </div>
+     </nav>
+
+     <!-- Navigation Bar Top -->
+
+     <nav class="filltop">
+          <div class="nav-width">
+               <a href="home.html">
+                    <div class="logoo">
+                         <svg viewBox="128.734 158.828 191.406 82.906" width="150" height="82.906">
+                              <path d="M 176.748 224.796 L 164.868 224.796 L 155.648 211.476 L 155.098 211.476 L 145.468 211.476 L 145.468 224.796 L 134.408 224.796 L 134.408 176.986 L 155.098 176.986 C 159.338 176.986 163.015 177.693 166.128 179.106 C 169.248 180.513 171.651 182.516 173.338 185.116 C 175.025 187.709 175.868 190.783 175.868 194.336 C 175.868 197.889 175.015 200.949 173.308 203.516 C 171.595 206.089 169.168 208.059 166.028 209.426 L 176.748 224.796 Z M 164.668 194.336 C 164.668 191.649 163.801 189.589 162.068 188.156 C 160.335 186.723 157.808 186.006 154.488 186.006 L 145.468 186.006 L 145.468 202.666 L 154.488 202.666 C 157.808 202.666 160.335 201.939 162.068 200.486 C 163.801 199.026 164.668 196.976 164.668 194.336 ZM 195.603 215.916 L 221.623 215.916 L 221.623 224.796 L 184.603 224.796 L 184.603 176.986 L 220.733 176.986 L 220.733 185.866 L 195.603 185.866 L 195.603 196.246 L 217.793 196.246 L 217.793 204.856 L 195.603 204.856 L 195.603 215.916 ZM 266.558 185.866 L 241.488 185.866 L 241.488 198.496 L 263.618 198.496 L 263.618 207.376 L 241.488 207.376 L 241.488 224.796 L 230.428 224.796 L 230.428 176.986 L 266.558 176.986 L 266.558 185.866 ZM 307.807 224.796 L 303.577 214.556 L 281.377 214.556 L 277.137 224.796 L 265.807 224.796 L 287.107 176.986 L 298.037 176.986 L 319.417 224.796 L 307.807 224.796 Z M 284.927 206.146 L 300.087 206.146 L 292.507 187.846 L 284.927 206.146 Z"
+                                   transform="matrix(1, 0, 0, 1, 0, 0)" style="fill: rgb(255, 255, 255); white-space: pre;"></path>
+                         </svg>
+                    </div>
+               </a>
+               <ul class="menu">
+                    <li><a href="portfolio.html" class="underline" title="">portfolio</a></li>
+                    <li><a href="contact.html" class="underline" title="">contact</a></li>
+                    <li><a href="about.html" class="underline" title="">about</a></li>
+               </ul>
+          </div>
+     </nav>
+
+     <div class="block container-block ">
+
+          <div class="category">
+
+               <ul class="flex flex-col md:flex-row text-center justify-around rounded-full">
+                    <!-- <li> <a href="#" class="">Portrait Person</a> </li> -->
+                    <li> <a href="portfolioWedding.html" class="" title="Wedding Categories">Wedding</a> </li>
+                    <li> <a href="#" class="" id="Urban" title="Urban Lifestyle Categories">Urban Lifestyle</a> </li>
+                    <li> <a href="portfolioScenery.html" class="" title="Scenery Categories">Scenery</a> </li>
+               </ul>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3">
+
+               <section class="justify-self-center mx-1">
+                    <div data-aos="fade-right" data-aos-duration="2000" title="MizanEl">
+                         <a href="../Photographer Web IKJ/Photos/Urban/11.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/11.png" alt="MizanEl" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="2000" title="Bees Pattern">
+                         <a href="https://images.unsplash.com/photo-1593012095939-e01118d1b6db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2050&q=80" data-fancybox="gallery">
+                              <img class="my-3"src="https://images.unsplash.com/photo-1593012095939-e01118d1b6db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2050&q=80" alt="Jembatan Penyebrangan" width='380px'>
+                              <!-- https://unsplash.com/photos/cM61hx07Rt4 -->
+                         </a>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="2000" title="Night Citi Building">
+                         <a href="https://images.unsplash.com/photo-1548770207-443ef72ff9ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="https://images.unsplash.com/photo-1548770207-443ef72ff9ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80" alt="CitiBuilding" width='380px'>
+                         </a>
+                         <!-- https://unsplash.com/photos/SmyEODyqtvc -->
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="2000" title="Cathedral">
+                         <a href="https://images.unsplash.com/photo-1593012430611-d48e56925e35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="https://images.unsplash.com/photo-1593012430611-d48e56925e35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80" alt="Katedral" width='380px'>
+                         </a>
+                    </div>
+               </section>
+
+               <section class="justify-self-center mx-1">
+                    <div data-aos="fade-up" data-aos-duration="2100" title="Faisal & MizanEl">
+                         <a href="../Photographer Web IKJ/Photos/Urban/13.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/13.png" alt="Faisal MizanEl nyebrang" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2100" title="Interior Halte MRT">
+                         <a href="https://images.unsplash.com/photo-1590930709445-6c6bafb04b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="https://images.unsplash.com/photo-1590930709445-6c6bafb04b8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80" alt="Halte MRT Interior" width='380px'>
+                         </a>
+                         <!-- https://unsplash.com/photos/xzmkivu5bs0 -->
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2100" title="Rambu Drop Off">
+                         <a href="https://images.unsplash.com/photo-1557747744-d11bf942df49?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="https://images.unsplash.com/photo-1557747744-d11bf942df49?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80" alt="Drop off Pickup" width='380px'>
+                              <!-- https://unsplash.com/photos/1y_97Q_qbKs -->
+                         </a>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2100" title="Stasiun MRT Bundaran HI">
+                         <a href="https://images.unsplash.com/photo-1594586309343-0d79523621d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="https://images.unsplash.com/photo-1594586309343-0d79523621d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80" alt="Stasiun MRT" width='380px'>
+                         </a>
+                         <!-- https://unsplash.com/photos/CkKPsmEsv-E -->
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2000" title="Jembatan Penyebrang">
+                         <a href="../Photographer Web IKJ/mainImage/arsitekk.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/mainImage/arsitekk.png" alt="Jembatan Penyebrang Interior" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2100" title="Grand Rubina">
+                         <a href="https://images.unsplash.com/photo-1575705861178-46e16b0e3be7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="https://images.unsplash.com/photo-1575705861178-46e16b0e3be7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80" alt="Grand Rubina Kuningan" width='380px'>
+                              <!-- https://unsplash.com/photos/3WNHx5cDbns -->
+                         </a>
+                    </div>
+               </section>
+
+               <section class="justify-self-center mx-1">
+                    <div data-aos="fade-left" data-aos-duration="2500" title="MizanEl & Andhika">
+                         <a href="../Photographer Web IKJ/Photos/Urban/12.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/12.png" alt="MizanEl dan Andhika" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="2100" title="Gelora Bung Karno Exterior">
+                         <a href="https://images.unsplash.com/photo-1593011809677-8b64c1cc8f80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2050&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="https://images.unsplash.com/photo-1593011809677-8b64c1cc8f80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2050&q=80" alt="GBK" width='380px'>
+                         </a>
+                         <!-- https://unsplash.com/photos/ipaZ9wniHN8 -->
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="2100" title="GBK enter fence Pattern">
+                         <a href="https://images.unsplash.com/photo-1593011825702-8ed2048035f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2050&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="https://images.unsplash.com/photo-1593011825702-8ed2048035f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2050&q=80" alt="Pagar GBK" width='380px'>
+                         </a>
+                         <!-- https://unsplash.com/photos/-oq81HSiX3c -->
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="2100" title="Bus stop night city">
+                         <a href="https://images.unsplash.com/photo-1561462723-7529b76d8b02?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="https://images.unsplash.com/photo-1561462723-7529b76d8b02?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80" alt="Halte Bus Stop" width='380px'>
+                         </a>
+                    </div>
+               </section>
+
+          </div>
+     </div>
+
+     <!-- footer -->
+
+     <!-- <br><br> -->
+     <div class="footer-note">
+          <div>
+               <footer>
+                    <p>© 2021. <b>By Group 3</b> All rights reserved.</p>
+               </footer>
+          </div>
+     </div>
+
+     <script>
+          AOS.init();
+     </script>
+
+
+</body>
+
+</html>

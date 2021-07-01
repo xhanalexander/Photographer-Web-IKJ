@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <title>Portfolio</title>
+     <meta charset="utf-8">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="portfoliostyle2.css">
+     <link href="Transition.css" rel="stylesheet">
+     <link href="mainImage/Rw-1.gif" rel="icon" type="image/gif" sizes="64x64">
+     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+
+     <!-- Navigation Bar -->
+
+     <nav class="navbar">
+          <div class="nav-width">
+               <a href="home.html" title="Home">
+                    <div class="logoo">
+                         <svg viewBox="128.734 158.828 191.406 82.906" width="150" height="80">
+                              <path d="M 176.748 224.796 L 164.868 224.796 L 155.648 211.476 L 155.098 211.476 L 145.468 211.476 L 145.468 224.796 L 134.408 224.796 L 134.408 176.986 L 155.098 176.986 C 159.338 176.986 163.015 177.693 166.128 179.106 C 169.248 180.513 171.651 182.516 173.338 185.116 C 175.025 187.709 175.868 190.783 175.868 194.336 C 175.868 197.889 175.015 200.949 173.308 203.516 C 171.595 206.089 169.168 208.059 166.028 209.426 L 176.748 224.796 Z M 164.668 194.336 C 164.668 191.649 163.801 189.589 162.068 188.156 C 160.335 186.723 157.808 186.006 154.488 186.006 L 145.468 186.006 L 145.468 202.666 L 154.488 202.666 C 157.808 202.666 160.335 201.939 162.068 200.486 C 163.801 199.026 164.668 196.976 164.668 194.336 ZM 195.603 215.916 L 221.623 215.916 L 221.623 224.796 L 184.603 224.796 L 184.603 176.986 L 220.733 176.986 L 220.733 185.866 L 195.603 185.866 L 195.603 196.246 L 217.793 196.246 L 217.793 204.856 L 195.603 204.856 L 195.603 215.916 ZM 266.558 185.866 L 241.488 185.866 L 241.488 198.496 L 263.618 198.496 L 263.618 207.376 L 241.488 207.376 L 241.488 224.796 L 230.428 224.796 L 230.428 176.986 L 266.558 176.986 L 266.558 185.866 ZM 307.807 224.796 L 303.577 214.556 L 281.377 214.556 L 277.137 224.796 L 265.807 224.796 L 287.107 176.986 L 298.037 176.986 L 319.417 224.796 L 307.807 224.796 Z M 284.927 206.146 L 300.087 206.146 L 292.507 187.846 L 284.927 206.146 Z"
+                              </path>
+                         </svg>
+                    </div>
+               </a>
+               <ul class="menu">
+                    <li><a href="portfolio.html" class="">portfolio</a></li>
+                    <li><a href="contact.html" class="">contact</a></li>
+                    <li><a href="about.html" class="">about</a></li>
+               </ul>
+          </div>
+     </nav>
+
+     <!-- Navigation Bar Top -->
+
+     <nav class="filltop">
+          <div class="nav-width">
+               <a href="home.html">
+                    <div class="logo2">
+                         <svg viewBox="128.734 158.828 191.406 82.906" width="100" height="50">
+                              <path d="M 176.748 224.796 L 164.868 224.796 L 155.648 211.476 L 155.098 211.476 L 145.468 211.476 L 145.468 224.796 L 134.408 224.796 L 134.408 176.986 L 155.098 176.986 C 159.338 176.986 163.015 177.693 166.128 179.106 C 169.248 180.513 171.651 182.516 173.338 185.116 C 175.025 187.709 175.868 190.783 175.868 194.336 C 175.868 197.889 175.015 200.949 173.308 203.516 C 171.595 206.089 169.168 208.059 166.028 209.426 L 176.748 224.796 Z M 164.668 194.336 C 164.668 191.649 163.801 189.589 162.068 188.156 C 160.335 186.723 157.808 186.006 154.488 186.006 L 145.468 186.006 L 145.468 202.666 L 154.488 202.666 C 157.808 202.666 160.335 201.939 162.068 200.486 C 163.801 199.026 164.668 196.976 164.668 194.336 ZM 195.603 215.916 L 221.623 215.916 L 221.623 224.796 L 184.603 224.796 L 184.603 176.986 L 220.733 176.986 L 220.733 185.866 L 195.603 185.866 L 195.603 196.246 L 217.793 196.246 L 217.793 204.856 L 195.603 204.856 L 195.603 215.916 ZM 266.558 185.866 L 241.488 185.866 L 241.488 198.496 L 263.618 198.496 L 263.618 207.376 L 241.488 207.376 L 241.488 224.796 L 230.428 224.796 L 230.428 176.986 L 266.558 176.986 L 266.558 185.866 ZM 307.807 224.796 L 303.577 214.556 L 281.377 214.556 L 277.137 224.796 L 265.807 224.796 L 287.107 176.986 L 298.037 176.986 L 319.417 224.796 L 307.807 224.796 Z M 284.927 206.146 L 300.087 206.146 L 292.507 187.846 L 284.927 206.146 Z"
+                              </path>
+                         </svg>
+                    </div>
+               </a>
+               <ul class="menu">
+                    <li><a href="portfolio2.html" class="underline" title="Portfolio">portfolio</a></li>
+                    <li><a href="contact.html" class="underline" title="Contact">contact</a></li>
+                    <li><a href="about.html" class="underline" title="About me">about</a></li>
+               </ul>
+          </div>
+     </nav>
+
+     <!-- Categories -->
+
+     <div class="block container-block ">
+
+          <div class="category ">
+
+               <ul class="flex flex-col md:flex-row text-center justify-around rounded-full">
+                    <!-- <li> <a href="#" class="">Portrait Person</a> </li> -->
+                    <li> <a href="portfolioWedding.html" class="" title="Wedding Categories">Wedding</a> </li>
+                    <li> <a href="portfolioUrban.html" class="" title="Urban Lifestyle Categories">Urban Lifestyle</a> </li>
+                    <li> <a href="portfolioScenery.html" class="" title="Scenery Categories">Scenery</a> </li>
+               </ul>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3">
+
+               <section class="justify-self-center mx-1">
+                    <div data-aos="fade-right" data-aos-duration="2000" title="Girls Smoking">
+                         <a href="https://images.unsplash.com/photo-1620242484806-4080601cfdb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/1-3.png" alt="Girl Smoking" width='380px'>
+                         </a>
+                         <!-- https://unsplash.com/photos/cKEfgvnWxA8 -->
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="2000" title="Girls Drinks">
+                         <a href="https://images.unsplash.com/photo-1617714174859-38d413cbc296?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/9.png" alt="Girls Drinks" width='380px'>
+                         </a>
+                         <!-- https://unsplash.com/photos/K77gybh5-ao -->
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="2000" title="Hypebeast">
+                         <a href="../Photographer Web IKJ/mainImage/hype-1.jpg" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/mainImage/hype-1.jpg" alt="Hypebeast" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="2000" title="Flower pot Portrait">
+                         <a href="../Photographer Web IKJ/Photos/Urban/1.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/1.png" alt="Flower Pot Portrait" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="2000" title="Red Glass Pose">
+                         <a href="../Photographer Web IKJ/Photos/Urban/4.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/4.png" alt="Red Glass Portraits" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="2000" title="Autumn/Falls Portraits">
+                         <a href="../Photographer Web IKJ/Photos/Urban/7.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/7.png" alt="Autumn/Falls girls Portraits" width='380px'>
+                         </a>
+                    </div>
+               </section>
+
+               <section class="justify-self-center mx-1">
+                    <div data-aos="fade-up" data-aos-duration="2100" title="Girls Stretching">
+                         <a href="https://images.unsplash.com/photo-1620242736370-bfb4ce9ebf3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/2-3.png" alt="Girls" width='380px'>
+                         </a>
+                         <!-- https://unsplash.com/photos/PG3XeL1uWdU -->
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2100" title="stylegirl">
+                         <a href="https://images.unsplash.com/photo-1617714174838-4adc24d105ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="https://images.unsplash.com/photo-1617714174838-4adc24d105ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="stylegirl" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2000" title="Hypebeast">
+                         <a href="../Photographer Web IKJ/mainImage/hype-2.jpg" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/mainImage/hype-2.jpg" alt="Hypebeast" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2000" title="Black Women">
+                         <a href="../Photographer Web IKJ/Photos/Urban/2.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/2.png" alt="Black Women" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2100" title="Flower Head Pose">
+                         <a href="../Photographer Web IKJ/Photos/Urban/5.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/5.png" alt="Flower Head Portraits" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2100" title="Sits on Bar Pose">
+                         <a href="../Photographer Web IKJ/Photos/Urban/8.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/8.png" alt="Girls Sits in Bar" width='380px'>
+                         </a>
+                    </div>
+               </section>
+
+               <section class="justify-self-center mx-1">
+                    <div data-aos="fade-left" data-aos-duration="2500">
+                         <a href="https://images.unsplash.com/photo-1620242828454-0becaac6dc79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/3-3.png" alt="Girl Smoke" width='380px'>
+                         </a>
+                         <!-- https://unsplash.com/photos/8BOZslVrnq0 -->
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="2100" title="Girls front windows">
+                         <a href="https://images.unsplash.com/photo-1617714174795-62bf2d56ed3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1268&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/10.png" alt="Girls front windows" width='380px'>
+                         </a>
+                         <!-- https://unsplash.com/photos/zHhNG4YdiHo -->
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="2000" title="Hypebeast">
+                         <a href="../Photographer Web IKJ/mainImage/hype-3.jpg" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/mainImage/hype-3.jpg" alt="Hypebeast" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="2100" title="Yellow hoodie girl pose">
+                         <a href="../Photographer Web IKJ/Photos/Urban/3.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/3.png" alt="Yellow hoodie girl" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="2100" title="Yellow Jacket">
+                         <a href="../Photographer Web IKJ/Photos/Urban/6.png" data-fancybox="gallery">
+                              <img class="my-3" src="../Photographer Web IKJ/Photos/Urban/6.png" alt="Yellow Jacket Portraits" width='380px'>
+                         </a>
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="2100" title="Smiles Pose">
+                         <a href="https://images.unsplash.com/photo-1590820225605-fe14606ee40b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1918&q=80" data-fancybox="gallery">
+                              <img class="my-3" src="https://images.unsplash.com/photo-1590820225605-fe14606ee40b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1918&q=80" alt="Smile Girls" width='380px'>
+                         </a>
+                         <!-- https://unsplash.com/photos/C2cHydC76hU -->
+                    </div>
+               </section>
+
+          </div>
+     </div>
+
+     <!-- footer -->
+
+     <!-- <br><br> -->
+     <div class="footer-note">
+          <div>
+               <footer>
+                    <p>© 2021. <b>By Group 3</b> All rights reserved.</p>
+               </footer>
+          </div>
+     </div>
+
+     <script>
+          AOS.init();
+     </script>
+
+
+</body>
+
+</html>
