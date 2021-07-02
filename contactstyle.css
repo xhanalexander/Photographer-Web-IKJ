@@ -17,6 +17,7 @@ body {
 }
 
 /* -------------------------- Navigation Bar --------------------------   */
+
 .navbar {
      position: relative;
      width: 100%;
@@ -85,19 +86,7 @@ body {
 }
 
 /* -------------------------- contact info --------------------------  */
-/* .test {
-     background-color: #eb4034;
-}
 
-.test2 {
-     background-color: #fca103;
-}
-
-.test3 {
-     background-color: #b51477;
-}
-
-/* ---------------------------------------------- */
 .contact-box {
      display: grid;
      grid-template-row: 1fr 1fr;
@@ -238,14 +227,6 @@ body {
      padding: 2px 36px;
      height: 250px;
 }
-
-/*input[type=text],input[type=tel],
-input[type=email] {
-  padding: 20px;
-  margin:10px 0;
-  border: 0;
-  border-radius: 10px;
-}*/
 .btn {
      border: 3px solid #FF9B4F;
      background-color: #FF9B4F;
