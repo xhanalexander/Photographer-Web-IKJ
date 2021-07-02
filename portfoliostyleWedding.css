@@ -5,6 +5,7 @@ body {
 }
 
 /* -------------------------- Navigation Bar --------------------------   */
+
 .navbar {
      position: absolute;
      width: 100%;
@@ -69,8 +70,6 @@ body {
      justify-content: space-between;
 }
 
-.logo {}
-
 .logoo {
      cursor: pointer;
      fill: rgba(0, 0, 0, 1.0);
@@ -86,6 +85,7 @@ body {
 }
 
 /* -------------------------- Fill top --------------------------   */
+
 .filltop {
      position: relative;
      width: 100%;
@@ -144,6 +144,7 @@ body {
 }
 
 /* -------------------------- Category list --------------------------   */
+
 .category li {
      font-family: "Roboto", sans-serif;
      /* border: 1px solid #000; */
@@ -165,6 +166,7 @@ body {
 }
 
 /* -------------------------- Portfolio --------------------------   */
+
 .container-block {
      padding: 2% 11.5% 0;
 }
@@ -177,6 +179,7 @@ h5 {
 }
 
 /* -------------------------- footer  --------------------------   */
+
 .footer-note {
      /* background-color: #eaeaea; */
      color: #001247;
